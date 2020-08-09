@@ -22,13 +22,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6pjp4sudwgh&pib=5*^qg3958+c$#r7du^&gn%mb_qkn52tf2n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
     '127.0.0.1',
     'localhost',
-    'mysite.com',
+    'djangosms.herokuapp.com',
     '*'
 ]
 
